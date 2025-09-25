@@ -21,7 +21,7 @@ const Contact = () => {
      setStatus(true)
     try {
      
-      const res = await axios.post("http://localhost:4000/api/sendemail", formData);
+      const res = await axios.post("https://portfolio-yi3y.onrender.com/api/sendemail", formData);
       if(res.data.success){
         setStatus(false);
         toast.success('Email sent successfully')
