@@ -3,13 +3,18 @@ import cors from 'cors';
 import dotenv from 'dotenv';
 import nodemailer from 'nodemailer';
 dotenv.config();
+import path from 'path';
 
 const app = express();
+
+const __dirname= path.resolve();
+
 
 //midleware
 
 app.use(cors())
 app.use(express.json());
+
 
 //server
 
@@ -47,3 +52,9 @@ app.post('/api/sendemail', async(req,res)=>{
     }
 
 })
+
+app.use(express.static(path.join(__dirname,'/client/dist')));
+
+app.get(/.*/, (req, res) => {
+  res.sendFile(path.join(__dirname, 'client','dist', 'index.html'));
+});
