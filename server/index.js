@@ -12,11 +12,7 @@ const __dirname= path.resolve();
 
 //midleware
 
-app.use(cors({
-    origin: "https://portfolio-yi3y.onrender.com", 
-    methods: ["GET", "POST"],
-    allowedHeaders: ["Content-Type", "Authorization"],
-  }))
+app.use(cors());
 app.use(express.json());
 
 
