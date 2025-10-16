@@ -1,7 +1,18 @@
 import { ArrowRight, ExternalLink, Github } from "lucide-react";
+
 const ProjectsList = [
+
   {
     id: 1,
+    title: "Blinkit Clone",
+    description:
+     "Built a full-stack Blinkit Clone using the MERN stack, integrating Razorpay for payments, Cloudinary for image storage, and Redux for efficient state management.",
+    image: "/projects/blinkit_clone.png",
+    liveUrl: "https://blinkit-clone-fiy9.vercel.app/",
+    githubUrl: "https://github.com/ShaliniArumugam-02/Blinkit-Clone",
+  },
+  {
+    id: 2,
     title: "Bulk Mail",
     description:
       "Built a Bulk Mail App with React, Node.js/Express, and Firebase Google Auth, enabling secure sign-ups and scalable bulk email delivery.",
@@ -10,7 +21,7 @@ const ProjectsList = [
     githubUrl: "https://github.com/ShaliniArumugam-02/BulkMail",
   },
   {
-    id: 2,
+    id: 3,
     title: "Keep Notes",
     description:
       "Developed KeepNotes, a full-stack MERN app with Redis-based rate limiting, modular architecture, and a clean client-server code structure using React, Vite, and Tailwind CSS.",
@@ -19,7 +30,7 @@ const ProjectsList = [
     githubUrl: "https://github.com/ShaliniArumugam-02/KeepNotes",
   },
   {
-    id: 3,
+    id: 4,
     title: "Spotify Login Page",
     description:
       "Built a Spotify-inspired login/signup app using React, Node.js, and Express, focusing on authentication flow, API handling, and a clean UI experience",
@@ -29,7 +40,7 @@ const ProjectsList = [
     githubUrl: "https://github.com/ShaliniArumugam-02/Spotify-Signup",
   },
   {
-    id: 4,
+    id: 5,
     title: "Weather App",
     description:
       "Developed a React Weather App with Tailwind CSS and OpenWeather API, featuring live updates, temperature toggle, dynamic UI, and responsive design.",
@@ -38,7 +49,7 @@ const ProjectsList = [
     githubUrl: "https://github.com/ShaliniArumugam-02/weather",
   },
   {
-    id: 5,
+    id: 6,
     title: "CineMate",
     description:
       "Built CineMate, a movie app with React, Tailwind CSS, authentication, personalized watchlist, and a smooth responsive UI using React Router, Context API, and localStorage.",
@@ -47,7 +58,7 @@ const ProjectsList = [
     githubUrl: "https://github.com/ShaliniArumugam-02/cinemate",
   },
   {
-    id: 6,
+    id: 7,
     title: "Apple",
     description:
       "Recreated the Apple India website using React, Vite, and Tailwind CSS, focusing on responsive design, reusable components, and pixel-perfect UI details.",
@@ -56,7 +67,7 @@ const ProjectsList = [
     githubUrl: "https://github.com/ShaliniArumugam-02/Apple-clone",
   },
   {
-    id: 7,
+    id: 8,
     title: "Greenden",
     description:
       "Built GreenDen, a modern responsive garden-themed website using HTML and Tailwind CSS, focusing on clean semantic code, reusable components, and performance optimization.",
@@ -65,7 +76,7 @@ const ProjectsList = [
     githubUrl: "https://github.com/ShaliniArumugam-02/Greenden",
   },
   {
-    id: 8,
+    id: 9,
     title: "Trip Advisor",
     description:
       "Created a TripAdvisor homepage clone using pure HTML and CSS, featuring a responsive layout, card-style sections, and clean modern UI design.",
@@ -74,7 +85,7 @@ const ProjectsList = [
     githubUrl: "https://github.com/ShaliniArumugam-02/tripadvisor",
   },
   {
-    id: 9,
+    id: 10,
     title: "Udemy",
     description:
       "Built a responsive Udemy homepage clone using pure HTML and CSS, featuring a sticky navbar, course grid, and clean structured UI.",
@@ -83,7 +94,7 @@ const ProjectsList = [
     githubUrl: "https://github.com/ShaliniArumugam-02/Udemy-Clone",
   },
   {
-    id: 10,
+    id: 11,
     title: "Hot & Cold",
     description:
       "Created Hot and Cold, a static drinks website using pure HTML and CSS, featuring a clean layout with separate hot and cold sections.",
